@@ -1,0 +1,251 @@
+@media only screen and (min-width: 801px) {
+
+
+.modalOne {
+  width: 400px;
+}
+
+.container-fluid {
+  padding:0px;
+}
+
+.navbar-nav {
+  margin: 0px;
+}
+
+nav {
+  padding: 0px;
+}
+
+
+/*About me*/
+
+#headerTwo {
+    width: 330px;
+    height: 700px;
+    padding: 0px;
+    margin-left: 300px;
+}
+
+#headerTwo .container-fluid {
+  padding: 0px;
+  width: 300px;
+  margin: 0px!important;
+}
+
+#member {
+    height: 300px!important;
+    width: 280px!important; 
+
+}
+
+#headerTwo h1 {
+ margin: 0px;
+ margin-left: 110px;
+ margin-bottom: -50px;
+ margin-top: 30px;
+
+}
+
+#headerTwo h4 {
+  width: 300px;
+  margin-left: 20px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 90px;
+}
+
+.mobile {
+  display: none;
+  margin-top: 0px;
+}
+
+/*Button*/ 
+ .button1 {
+  margin-left: 70px;
+ }
+
+/*Parallax*/
+/*Kon Schouwburg */
+
+/*Image*/
+  .large {
+    font-size: 24px;
+
+  }
+
+/*Skills*/
+#headerFour {
+    margin-left: 100px;
+    height: 800px;
+    width: 700px;
+ }
+
+ #headerFour h1 {
+  margin-left: 60px;
+  font-size: 30px;
+ }
+
+.col-xs-12 {
+ margin-left: 50px;
+}
+
+/*Section Six | Image Gallery*/
+
+#imageGalleryOne   {
+  height: 650px;
+  padding: 0px;
+  margin-left: 0px;
+
+}
+
+#imageGalleryOne h1 {
+  margin-left: 100px;
+  padding: 0px;
+}
+
+#imageGalleryOne h1> a {
+  margin: 0px;
+}
+
+#imageGalleryTwo   {
+  padding: 0px;
+  margin-left: 0px;
+  height: 650px;
+}
+
+#mobile2 {
+  display: none;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0,2;
+}
+
+.row {
+  padding: 0px;
+}
+
+/*Carousel*/
+.slide h2 {
+  font: 25px/35px Abril Fatface;
+
+}
+/*Footer*/
+#footer {
+  height: 35%;
+}
+
+
+#toTop {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+#toLinks p {
+  margin-top: 0px;
+  text-align: center;
+}
+
+#toLinks  {
+  margin-left: 0px;
+  margin-top: 100px;
+}
+
+
+#contact  {
+  margin-right: 0px;
+}
+
+
+/*Timeline*/
+  .cd-horizontal-timeline .events-content h2 {
+    font-size: 7rem;
+  }
+  .cd-horizontal-timeline .events-content em {
+    font-size: 2rem;
+  }
+  .cd-horizontal-timeline .events-content p {
+    font-size: 1.4rem;
+  }
+}
+
+@-webkit-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
