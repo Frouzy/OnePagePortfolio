@@ -1,3 +1,4 @@
+
 //navbar scroll effect
 
 $(document).ready(function(){
@@ -15,7 +16,7 @@ $(document).ready(function(){
 
 
 //Modal
-    $(document).ready(function () {
+$(document).ready(function () {
       $(".activate-modal").click(function (e) {
         e.preventDefault();
         $(".modal-wrapper").fadeIn();
@@ -71,6 +72,8 @@ $(document).ready(function(){
     }
   });
 
+
+
 //Carousel
 
 $(document).ready(function () {
@@ -89,7 +92,6 @@ $(document).ready(function () {
 
     timer = setInterval(carousel, 5000);
 });
-
 
 
   
